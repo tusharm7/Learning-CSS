@@ -1,0 +1,26 @@
+/*Text Properties*/
+h1 {
+  text-align: center;
+  font-weight: 900;
+  text-decoration: burlywood underline solid;
+  letter-spacing: 2px;
+  /*prioritized list of font family names*/
+  font-family: Arial, Helvetica, Georgia, "Times New Roman";
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  background-color: #616247ff;
+  color: #daa03dff;
+}
+h3 {
+  background-color: #616247ff;
+  color: #daa03dff;
+}
+p {
+  background-color: beige;
+  color: brown;
+  line-height: 2;
+  font-family: Georgia;
+}

@@ -1,0 +1,12 @@
+/*Basic CSS*/
+h1 {
+  color: #8b0000;
+  background-color: white;
+}
+h2 {
+  background-color: orange;
+}
+p {
+  background-color: beige;
+  color: brown;
+}
