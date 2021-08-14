@@ -1,0 +1,114 @@
+/* CSS Selectors */
+
+/* Element Selector */
+body{
+    background-color: #caf0f8;
+}
+
+span{
+    color :grey;
+}
+
+/* Id Selector */
+
+#top {
+    text-align: right;
+    text
+}
+
+#search {
+    width: 357px;
+    margin: 4px;
+}
+
+/* Class Selector */
+
+.signup { 
+    background-color:#023e8a;
+    color : white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.tags {
+    background-color:rgb(240, 10, 10);
+    color :white;
+    font-size: 15px;
+}
+
+.vote {
+    font-weight: bold;
+    background-color: orange;
+}
+
+/* Descendant Selector */
+
+span a {
+    text-decoration: none;
+    color:grey;
+}
+
+
+.bottom a {
+    color :#023e8a;
+    font-weight: bolder;
+}
+
+/* Child Selector */
+
+.bottom > a {
+    color:darkred;
+}
+
+/* Adjacent Selector +
+   Descendant Selector */
+
+nav + h1 #heading {
+    color :black;
+    background-color:#71cee0;
+    display: "-moz-inline-box";
+}
+
+/*========Pseudo Selectors========*/
+
+/*---Pseudo Classes----*/
+
+button:hover {
+    background-color:black;
+    color:aqua;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color:chartreuse;
+}
+
+.post:nth-of-type(2n) {
+    background-color:lightgreen;
+}
+
+/*----Psuedo Elements----*/
+
+h2::first-letter {
+    font-size: 34px;
+}
+
+p::first-line {
+    font-style:oblique;
+    color:mediumblue;
+}
+
+p::selection {
+    background-color: mediumpurple;
+}
+
+h1::before{
+    content:"**";
+}
+
+h1::after{
+    content:"**";
+}
