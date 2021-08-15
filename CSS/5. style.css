@@ -1,0 +1,57 @@
+h1 {
+  width: 335px;
+  height: 50px;
+  background-color: sandybrown;
+  /* margin : top | horizontal | bottom */
+  margin: 0px 0px 30px;
+}
+
+#top {
+  background-color: powderblue;
+  width: 335px;
+  height: 200px;
+  /* border: size color style */
+  border: 5px greenyellow inset;
+  box-sizing: border-box;
+  border-left-width: 6px;
+  /* padding : top | right | bottom | left */
+  padding: 40px 20px 20px 20px;
+}
+
+#middle {
+  background-color: peachpuff;
+  width: 335px;
+  height: 200px;
+  /* border: size color style */
+  border: 5px saddlebrown dashed;
+  box-sizing: border-box;
+  border-radius: 20px;
+  /* padding : apply to all four sides */
+  padding: 15px;
+  margin-left: 430px;
+}
+
+#bottom {
+  background-color: saddlebrown;
+  width: 335px;
+  height: 200px;
+  /* border: size color style */
+  border: 5px orange solid;
+  box-sizing: border-box;
+  /* padding : top | horizontal | bottom */
+  padding: 20px 50px 40px;
+  margin-left: 900px;
+}
+
+.s {
+  width: 200px;
+  /* Inline Block : treats the element like other inline elements but allows the use of block properties. */
+  display: inline-block;
+  background-color: lawngreen;
+  /* border: size color style */
+  border: 5px springgreen solid;
+  border-radius: 20px;
+  box-sizing: inherit;
+  margin: 20px;
+  padding: 5px;
+}
